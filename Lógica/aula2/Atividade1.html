@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 JavaScript</title>
+
+</head>
+<body>
+
+    <h1>Total de calorias em uma refeição</h1>
+
+    <script>
+        let prato = parseInt(prompt("Escolha o número do prato:\n1 - Vegetariano\n2 - Peixe\n3 - Frango\n4 - Carne"))
+
+        let sobremesa = parseInt(prompt("Escolha o número da sobromesa:\n1 - Abacaxi\n2 - Sorvete diet\n3 - Mouse diet\n4 - Mouse Chocolate "))
+
+        let bebida = parseInt(prompt("Escolha o Número da bebida:\n1 - Chá\n2 - Suco de laranja\n3 - Suco de melão\n4 - Refrigerante diet"))
+
+        if(prato == "1"){
+            document.write(" Prato escolhido: Vegetariano")
+        } else if(prato == "2"){
+            document.write(" Prato escolhido: Peixe")
+        } else if(prato == "3"){
+            document.write(" Prato escolhido: Frango")
+        } else if(prato == "4"){
+            document.write(" Prato escolhido: Carne")
+        } else {
+            alert("prato escolhido invalido")
+        }
+
+         if(sobremesa == "1"){
+            document.write("<br> Sobre mesa escolhida: Abacaxi")
+        } else if(sobremesa == "2"){
+            document.write("<br> Sobremesa escolhida: Sorvete diet")
+        } else if(sobremesa == "3"){
+            document.write("<br> Sobremesa escolhida: Mouse diet")
+        } else if(sobremesa == "4"){
+            document.write("<br> Sobremesa escolhida: Mouse chocolate")
+        } else {
+            alert(" Sobremesa escolhida invalido")
+        }
+
+        if(bebida == "1"){
+            document.write("<br> bebida escolhida: Chá")
+        }else if(bebida == "2"){
+            document.write("<br> bebida escolhida: Suco de laranja")
+        }else if(bebida == "3"){
+            document.write("<br> Bebida escolhida: Suco de melão")
+        }else if(bebida == "4"){
+            document.write("<br> Bebida escolhida: Refrigerante diet")
+        } else{
+            alert(" Bebida escolhida invalido")
+        }
+        
+        let pratos = { 1: 180, 2: 230, 3: 250, 4: 350 }
+
+        let sobremesas = { 1: 75, 2: 110, 3: 170, 4: 200}
+
+        let bebidas = { 1: 20, 2: 70, 3: 100, 4: 65 }
+ 
+        let total = pratos[prato] + sobremesas[sobremesa] + bebidas[bebida]
+
+        document.write("<br> Total de calorias da sua refeição é: " + total)
+
+    </script>
+    
+</body>
+</html>

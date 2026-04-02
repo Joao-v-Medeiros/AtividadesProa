@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário Mínimo</title>
+</head>
+<body>
+    <h1>Salário Mínimo</h1>
+
+    <script> 
+        let salarioMinimo = prompt("qual é o salario minimo no seu país?: ")
+        let num = parseFloat(salarioMinimo)
+
+        let salario = prompt("Quanto você ganha?: ")
+        let num1 = parseFloat(salario)
+
+        
+
+        if (salarioMinimo === "" || isNaN(num) || salario === "" || isNaN(num1) ) {
+            document.write("Digite um Salário valido")
+        } else {
+            let total =  num1 / num
+            document.write("Você recebe: " + total.toFixed(2) + " salarios minimos ")
+        }
+
+    </script>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ajuste 1.5%</title>
+</head>
+<body>
+    <h1>Ajuste de 1.5%</h1>
+    
+    <script>
+        let saldo = prompt("Informe um saldo: ")
+        let num = parseFloat(saldo)
+        
+        if (saldo === "" || isNaN(num)){
+            alert("Digite um saldo valido")
+        } else{
+            let reajuste = num * 0.015
+            let novoSaldo = num + reajuste
+
+            document.write("O reajuste é: " + reajuste.toFixed(2))
+            document.write("<br> O saldo atual é: " + novoSaldo.toFixed(2))
+        }
+
+    </script>
+
+</body>
+</html>

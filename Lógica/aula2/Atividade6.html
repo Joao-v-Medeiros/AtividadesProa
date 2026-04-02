@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sucessor e antecessor</title>
+  </head>
+  <body>
+    <h1>Sucessor e Antecessor</h1>
+
+    <script>
+    let entrada = prompt("Escolha um número:");
+    let num = parseInt(entrada);
+
+    if (entrada === "" || isNaN(num)) {  /* isNaN = is Not a Number. “Se estiver vazio OU não for número”  */
+        document.write("❌ Digite um número válido.");
+    } else {
+        document.write("Número escolhido: " + num);
+
+        let sucessor = num + 1;
+        document.write("<br>O sucessor do seu número é: " + sucessor);
+
+        let antecessor = num - 1;
+        document.write("<br>O antecessor do seu número é: " + antecessor);
+    }
+</script>
+  </body>
+</html>

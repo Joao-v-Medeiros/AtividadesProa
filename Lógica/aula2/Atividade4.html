@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores em formas descendente</title>
+
+</head>
+<body>
+    <h1>Valores em formas decrenscente</h1>
+
+    <script>
+        let a = parseFloat(prompt("Digite seu valor A: "))
+        let b = parseFloat(prompt("Digite seu valor B: "))
+        let c = parseFloat(prompt("Digite seu valor C: "))
+        
+        
+
+        if (a > b && a > c){
+            if (b > c) {
+                document.write("Valores : " + a + ", " + b + ", " + c)
+            }else{
+                document.write("<br>Valores : " + a + ", " + c + ", " + b)
+            }
+        }else if(b > a && b > c){
+            if (a > c){
+                document.write("<br>Valores : " + b + ", " + a + ", " + c)
+            }else{
+                document.write("<br>Valores : " + b + ", " + c + ", " + a)
+            }
+        }else{
+            if (a > b){
+                document.write("<br>Valores : " + c + ", " + a + ", " + b)
+            }else {
+                document.write("<br>Valores : " + c + ", " + b + ", " + a)
+            }
+        }
+
+        /* if dentro de if quando eu quero conferir duas condições ae msm tempo */
+        
+
+    </script>
+    
+</body>
+</html>

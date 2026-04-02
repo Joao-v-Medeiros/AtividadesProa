@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário do mês</title>
+</head>
+<body>
+    <h1>Salário do mês</h1>
+
+    <script>
+        let nome = prompt("Digite o nome do vendedor: ")
+        
+        let salarioFixo = parseFloat(prompt("Digite o salário do vendedor: "))
+        let venda = parseFloat(prompt("DIgite o total de vendas em dinheiro: "))
+
+        if (nome === "" || isNaN(salarioFixo) || isNaN(venda)){
+            alert("Digite um valor valido")
+        } else {
+            let comissao = venda * 0.15
+            let salarioFinal = salarioFixo + comissao
+
+            document.write("<br>Nome do vendedor: " + nome)
+            document.write("<br>Salário fixo: " + salarioFixo)
+            document.write("<br>Salario final: " + salarioFinal)
+        }
+
+
+    </script>
+    
+</body>
+</html>

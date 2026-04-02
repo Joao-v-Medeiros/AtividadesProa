@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Divisão</h1>
+
+    <script>
+        let num = parseInt(prompt("Escolha um número: "))
+        let resultado = "";
+
+        if (num % 10 === 0){
+          resultado = "Número divisivel por 10"
+        } else if (num % 5 === 0){
+          resultado = "Número divisivel por 5"
+        } else if (num % 2 === 0){
+          resultado = "Número divisivel por 2"
+        } else {
+            resultado = "resultado não é divisivel por nenhum: "
+        }
+
+        document.write(resultado)
+
+    </script>
+    
+</body>
+</html>

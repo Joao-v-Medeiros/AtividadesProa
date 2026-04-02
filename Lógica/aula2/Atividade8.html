@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPI</title>
+</head>
+<body>
+
+    <h1>IPI</h1>
+
+    <script>
+        let IPI = prompt("Escolha a porcentagem do IPI: ")
+
+        let codigo1 = parseFloat(prompt("Código da peça 1: "))
+        let valor1 = parseFloat(prompt("Valor da peça 1: "))
+        let quant1 = parseFloat(prompt("Quantidade da peça 1: "))
+
+        let codigo2 = parseFloat(prompt("Código da peça 2: "))
+        let valor2 = parseFloat(prompt("Valor da peça 2: "))
+        let quant2 = parseFloat(prompt("Quantidade da peça 2: "))
+
+
+        let total = (valor1 * quant1 + valor2 * quant2) * (IPI/100 + 1)
+
+        document.write("O valor total é: " + total)
+       
+
+    </script>
+    
+</body>
+</html>

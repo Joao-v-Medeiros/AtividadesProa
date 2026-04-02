@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade18</title>
+</head>
+<body>
+    <h1>Atividade18</h1>
+    <script>
+        let nomeIdade = []
+        for(let i = 0; i < 10; i++){
+            nomeIdade[i] = {
+                nome: prompt("Digite o nome:"),
+                idade: parseInt(prompt("Digite a idade:"))
+            };
+        }
+        let maisNovo = nomeIdade[0];
+        for(let i = 1; i < nomeIdade.length; i++){
+            if(nomeIdade[i].idade < maisNovo.idade){
+                maisNovo = nomeIdade[i];
+            }
+        }
+        document.write("O nome da pessoa mais nova é: " + maisNovo.nome);
+        document.write("<br>A idade da pessoa mais nova é: " + maisNovo.idade);
+
+    </script>
+</body>
+</html>
