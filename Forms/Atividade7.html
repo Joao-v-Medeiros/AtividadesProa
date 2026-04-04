@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade7</title>
+</head>
+<body>
+
+    <script>
+        let soma = 0
+
+        for( let i = 1; i <=6; i++){
+            let nota = parseFloat(prompt("Digite a nota " + i))
+
+            while( nota < 0 || nota > 10 || isNaN(nota)){
+                nota = parseFloat(prompt("Valor inválido! Digite a nota " + i + " novamente:"))           
+            }
+            soma += nota
+        }
+
+        let media = soma /6
+
+        document.write("Média final: " + media.toFixed(2));
+
+    </script>
+    
+</body>
+</html>

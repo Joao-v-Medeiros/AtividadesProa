@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade11</title>
+</head>
+<body>
+
+    <script>
+    let N = parseInt(prompt("Digite um número:"))
+
+    if (N > 0) {
+
+        for (let i = 1; i <= N; i++) {
+
+            document.write("<br><b>Tabuada do " + i + "</b><br>")
+
+            for (let j = 1; j <= 10; j++) {
+                document.write(i + " x " + j + " = " + (i * j) + "<br>")
+            }
+
+        }
+
+    } else {
+        alert("Digite um número maior que 0!")
+    }
+</script>
+    
+</body>
+</html>

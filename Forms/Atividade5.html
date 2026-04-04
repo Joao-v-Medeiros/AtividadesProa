@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Atividade5</h1>
+
+    <script>
+        let n1 = parseFloat(prompt("Digite o primeiro número:"));
+        let n2 = parseFloat(prompt("Digite o segundo número:"));
+        let soma = 0;
+        for (let i = n1; i <= n2; i++) {
+            soma += i;
+        }
+        let media = soma / (n2 - n1 + 1);
+
+        document.write("A media aritmetica entre os numeros " + n1 + " e " + n2 + " é: " + media.toFixed(2));
+    </script>
+    
+</body>
+</html>
