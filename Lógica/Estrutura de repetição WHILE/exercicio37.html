@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de logica</title>
+</head>
+<body>
+
+    <h1>Faça um programa que leia um número inteiro e exiba se ele é um número primo.</h1>
+
+    <script>
+
+        let n = Number(prompt("Número:"))
+        let primo = true
+
+        for (let i = 2; i < n; i++){
+        if (n % i == 0) primo = false
+        }
+
+        console.log(primo)
+        
+    </script>
+    
+</body>
+</html>
