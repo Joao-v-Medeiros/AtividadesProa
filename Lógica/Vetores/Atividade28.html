@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 28</title>
+</head>
+<body>
+    <h1>Faça um programa que leia uma matriz 4x4 de números inteiros
+    e exiba o maior valor presente em cada linha.
+    </h1>
+    
+    <script>
+        let matriz = [];
+        let maioresValores = [];
+
+        // Leitura da Matriz 4x4
+        for (let i = 0; i < 4; i++) {
+            matriz[i] = [];
+            for (let j = 0; j < 4; j++) {
+                matriz[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+            }
+        }
+
+        // Encontrar o maior valor em cada linha
+        for (let i = 0; i < 4; i++) {
+            let maiorValor = matriz[i][0]; // Inicializa com o primeiro elemento da linha
+            for (let j = 1; j < 4; j++) {
+                if (matriz[i][j] > maiorValor) {
+                    maiorValor = matriz[i][j];
+                }
+            }
+            maioresValores.push(maiorValor);
+        }
+
+        // Exibição da Matriz e dos maiores valores de cada linha
+        console.log("Matriz 4x4:");
+        for (let i = 0; i < 4; i++) {
+            console.log(matriz[i].join(" "));
+        }
+
+        console.log("Maior valor presente em cada linha:");
+        for (let i = 0; i < 4; i++) {
+            console.log(`Linha ${i}: ${maioresValores[i]}`);
+        }   
+    </script>
+</body>
+</html>

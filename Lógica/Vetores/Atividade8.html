@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let num = [];
+        let par = 0
+        let impar = 0
+        let somaPar = 0
+        let somaImpar = 0
+
+        for (let i = 0; i < 5 ; i++){
+            let valor = Number(prompt('Digite um número:'));
+            num.push(valor);
+            if (valor %2 === 0 ) {
+                somaPar += valor
+                par++
+            }else {
+                somaImpar += valor
+                impar++
+            }
+        }
+
+        let mediaPar = somaPar / par
+        let mediaImpar = somaImpar / impar
+
+        alert("Média dos valores pares: " + mediaPar + "\nMédia dos valores ímpares: " + mediaImpar);
+
+
+    </script>
+    
+</body>
+</html>

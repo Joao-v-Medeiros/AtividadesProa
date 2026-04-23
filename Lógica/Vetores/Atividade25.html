@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 25</title>
+</head>
+<body>
+    <h1>Faça um programa que leia uma matriz 4x4 de números inteiros
+        e exiba a soma dos elementos de cada coluna.
+        </h1>
+
+    <script>
+        let matriz = [];
+        let somaColunas = [0, 0, 0, 0];
+
+        // Leitura da Matriz 4x4
+        for (let i = 0; i < 4; i++) {
+            matriz[i] = [];
+            for (let j = 0; j < 4; j++) {
+                matriz[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+                somaColunas[j] += matriz[i][j];
+            }
+        }
+
+        // Exibição da Matriz e da soma das colunas
+        console.log("Matriz 4x4:");
+        for (let i = 0; i < 4; i++) {
+            console.log(matriz[i].join(" "));
+        }
+
+        console.log("Soma dos elementos de cada coluna:");
+        for (let j = 0; j < 4; j++) {
+            console.log(`Coluna ${j}: ${somaColunas[j]}`);
+        }
+    </script>
+    
+</body>
+</html>

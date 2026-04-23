@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 30</title>
+</head>
+<body>
+    <h1>Crie um programa que leia duas matrizes 2x2 de números
+        inteiros e exiba a subtração</h1>
+    
+        <script>
+            let matriz1 = [];
+            let matriz2 = [];
+            let subtracao = [];
+
+            // Leitura da primeira matriz 2x2
+            for (let i = 0; i < 2; i++) {
+                matriz1[i] = [];
+                for (let j = 0; j < 2; j++) {
+                    matriz1[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}] da primeira matriz:`));
+                }
+            }
+
+            // Leitura da segunda matriz 2x2
+            for (let i = 0; i < 2; i++) {
+                matriz2[i] = [];
+                for (let j = 0; j < 2; j++) {
+                    matriz2[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}] da segunda matriz:`));
+                }
+            }
+
+            // Cálculo da subtração das matrizes
+            for (let i = 0; i < 2; i++) {
+                subtracao[i] = [];
+                for (let j = 0; j < 2; j++) {
+                    subtracao[i][j] = matriz1[i][j] - matriz2[i][j];
+                }
+            }
+
+            // Exibição das matrizes e da subtração
+            console.log("Primeira matriz 2x2:");
+            for (let i = 0; i < 2; i++) {
+                console.log(matriz1[i].join(" "));
+            }
+
+            console.log("Segunda matriz 2x2:");
+            for (let i = 0; i < 2; i++) {
+                console.log(matriz2[i].join(" "));
+            }
+
+            console.log("Subtração das matrizes:");
+            for (let i = 0; i < 2; i++) {
+                console.log(subtracao[i].join(" "));
+            }
+        </script>
+</body>
+</html>

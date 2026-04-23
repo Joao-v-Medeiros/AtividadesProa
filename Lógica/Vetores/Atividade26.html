@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 26</title>
+</head>
+<body>
+    <h1>
+        Escreva um programa que leia duas matrizes 2x2 de números
+        inteiros e verifique se elas são iguais.
+    </h1>
+
+    <script>
+        let matriz1 = [];
+        let matriz2 = [];
+        let saoIguais = true;
+
+        // Leitura da primeira matriz 2x2
+        for (let i = 0; i < 2; i++) {
+            matriz1[i] = [];
+            for (let j = 0; j < 2; j++) {
+                matriz1[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+            }
+        }
+
+        // Leitura da segunda matriz 2x2
+        for (let i = 0; i < 2; i++) {
+            matriz2[i] = [];
+            for (let j = 0; j < 2; j++) {
+                matriz2[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+            }
+        }
+
+        // Verificação se as matrizes são iguais
+        for (let i = 0; i < 2; i++) {
+            for (let j = 0; j < 2; j++) {
+                if (matriz1[i][j] !== matriz2[i][j]) {
+                    saoIguais = false;
+                    break;
+                }
+            }
+            if (!saoIguais) {
+                break;
+            }
+        }
+
+        // Exibição do resultado
+        console.log("Matriz 1:");
+        for (let i = 0; i < 2; i++) {
+            console.log(matriz1[i].join(" "));
+        }
+
+        console.log("Matriz 2:");
+        for (let i = 0; i < 2; i++) {
+            console.log(matriz2[i].join(" "));
+        }
+
+        if (saoIguais) {
+            console.log("As matrizes são iguais.");
+        } else {
+            console.log("As matrizes não são iguais.");
+        }
+
+    </script>
+    
+</body>
+</html>

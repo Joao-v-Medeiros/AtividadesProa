@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 14</title>
+</head>
+<body>
+    <h1>Escreva um programa que leia 7 números inteiros e exiba
+        apenas os números pares.</h1>
+
+    <script>
+        let numerosPares = [];
+        for (let i = 0; i < 7; i++) {
+            let num = parseInt(prompt("Digite um número inteiro:"));
+            if (num % 2 === 0) {
+                numerosPares.push(num);
+            }
+        }
+        console.log("Números pares digitados:", numerosPares);
+    </script>
+    
+</body>
+</html>

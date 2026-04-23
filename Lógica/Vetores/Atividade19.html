@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 19</title>
+</head>
+<body>
+    <h1>
+        Faça um programa que leia duas matrizes 2x2 de números
+        inteiros e exiba a soma das duas matrizes.
+    </h1>
+
+    <script>
+        let matrizA = [];
+        let matrizB = [];
+        let matrizSoma = [];
+        
+        // Leitura da Matriz A
+        for (let i = 0; i < 2; i++) {
+            matrizA[i] = [];
+            for (let j = 0; j < 2; j++) {
+                matrizA[i][j] = parseInt(prompt(`Digite um número inteiro para a Matriz A posição [${i}][${j}]:`));
+            }
+        }
+
+        // Leitura da Matriz B
+        for (let i = 0; i < 2; i++) {
+            matrizB[i] = [];
+            for (let j = 0; j < 2; j++) {
+                matrizB[i][j] = parseInt(prompt(`Digite um número inteiro para a Matriz B posição [${i}][${j}]:`));
+            }
+        }
+
+        // Cálculo da soma das matrizes
+        for (let i = 0; i < 2; i++) {
+            matrizSoma[i] = [];
+            for (let j = 0; j < 2; j++) {
+                matrizSoma[i][j] = matrizA[i][j] + matrizB[i][j];
+            }
+        }
+
+        // Exibição das matrizes e da soma
+        console.log("Matriz A:");
+        for (let i = 0; i < 2; i++) {
+            console.log(matrizA[i].join(" "));
+        }
+
+        console.log("Matriz B:");
+        for (let i = 0; i < 2; i++) {
+            console.log(matrizB[i].join(" "));
+        }
+
+        console.log("Soma das Matrizes A e B:");
+        for (let i = 0; i < 2; i++) {
+            console.log(matrizSoma[i].join(" "));
+        }
+    </script>
+    
+</body>
+</html>

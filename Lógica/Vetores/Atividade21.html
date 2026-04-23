@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 21</title>
+</head>
+<body>
+    <h1>Crie um programa que leia uma matriz 4x4 de números inteiros
+    e exiba a média aritmética dos elementos.
+    </h1>
+
+    <script>
+        let matriz = [];
+        let soma = 0;
+        let totalElementos = 0;
+
+        for (let i = 0; i < 4; i++) {
+            matriz[i] = [];
+            for (let j = 0; j < 4; j++) {
+                matriz[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+                soma += matriz[i][j];
+                totalElementos++;
+            }
+        }
+
+        let mediaAritmetica = soma / totalElementos;
+
+        console.log("Matriz 4x4:");
+        for (let i = 0; i < 4; i++) {
+            console.log(matriz[i].join(" "));
+        }
+        console.log("Média aritmética dos elementos da matriz:", mediaAritmetica);
+    </script>
+        
+</body>
+</html>

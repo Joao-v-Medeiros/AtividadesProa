@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 27</title>
+</head>
+<body>
+    <h1>Crie um programa que leia uma matriz 3x3 de números inteiros
+        e exiba o produto dos elementos da diagonal secundária.
+        </h1>
+
+    <script>
+        let matriz = [];
+        let produtoDiagonalSecundaria = 1;
+
+        // Leitura da Matriz 3x3
+        for (let i = 0; i < 3; i++) {
+            matriz[i] = [];
+            for (let j = 0; j < 3; j++) {
+                matriz[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+                if (i + j === 2) { // Verifica se é um elemento da diagonal secundária
+                    produtoDiagonalSecundaria *= matriz[i][j];
+                }
+            }
+        }
+
+        // Exibição da Matriz e do produto da diagonal secundária
+        console.log("Matriz 3x3:");
+        for (let i = 0; i < 3; i++) {
+            console.log(matriz[i].join(" "));
+        }
+        console.log("Produto dos elementos da diagonal secundária:", produtoDiagonalSecundaria);
+    </script>
+    
+</body>
+</html>

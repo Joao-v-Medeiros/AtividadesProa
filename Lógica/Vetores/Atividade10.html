@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let num = [];
+        let encontrouOzero = false
+
+        for (let i = 0; i < 5 ; i++){
+            let valor = Number(prompt('Digite um número:'));
+            num.push(valor);
+
+            if (valor === 0){
+                encontrouOzero = true
+                break
+            }
+        } 
+        if (encontrouOzero) {
+            alert("vc encontrou o número 0")
+        } else{
+            alert("vc não encontrou o númeor 0")
+        }
+
+
+    </script>
+    
+</body>
+</html>

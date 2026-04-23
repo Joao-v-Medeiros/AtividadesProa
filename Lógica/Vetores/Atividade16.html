@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 16</title>
+</head>
+<body>
+    <h1>Faça um programa que leia uma matriz 3x3 de números inteiros
+        e exiba a matriz na tela.
+        </h1>
+    
+    <script>
+        let matriz = [];
+        for (let i = 0; i < 3; i++) {
+            matriz[i] = [];
+            for (let j = 0; j < 3; j++) {
+                matriz[i][j] = parseInt(prompt(`Digite um número inteiro para a posição [${i}][${j}]:`));
+            }
+        }
+        console.log("Matriz 3x3:");
+        for (let i = 0; i < 3; i++) {
+            console.log(matriz[i].join(" "));
+        }
+    </script>
+</body>
+</html>
