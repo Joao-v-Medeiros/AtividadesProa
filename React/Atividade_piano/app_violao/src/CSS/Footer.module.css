@@ -1,0 +1,31 @@
+.footer{
+    width: 1300px;
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    color: white;
+    margin: 0px;
+}
+
+.footer_texto{
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.footer_redes{
+    margin-top: 10px;
+}
+
+.footer_redes img{
+    margin: 0px 10px;
+}
+.footer_redes_img{
+    width: 30px;
+}
