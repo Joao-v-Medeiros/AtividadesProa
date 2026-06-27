@@ -2,23 +2,58 @@
 
 Este repositório documenta toda a minha evolução durante o programa **PROA**, onde estou me formando como desenvolvedor **Full Stack** ao longo de 6 meses.
 
-A proposta deste projeto é registrar, na prática, tudo o que estou aprendendo durante a jornada — desde fundamentos até conceitos mais avançados — mostrando minha evolução contínua como desenvolvedor.
+A proposta deste projeto é registrar, na prática, minha evolução na programação e no desenvolvimento de software, aplicando conhecimentos que vão desde a base até tecnologias mais avançadas utilizadas no mercado.
 
 ---
 
 ## 📚 Sobre o Projeto
 
-Durante essa jornada estou estudando, praticando e desenvolvendo projetos utilizando tecnologias e conceitos essenciais para o desenvolvimento web:
+Durante essa jornada estou estudando e aplicando diversos conceitos fundamentais para o desenvolvimento Full Stack:
 
-* Estruturação de páginas com **HTML**
-* Estilização e responsividade com **CSS**
-* Lógica de programação com **JavaScript**
-* Criação de protótipos e interfaces no **Figma**
-* Organização e versionamento de projetos com **Git e GitHub**
-* Boas práticas de desenvolvimento
-* Desenvolvimento Front-end e fundamentos Full Stack
+### Front-end
 
-Todo o conteúdo deste repositório foi desenvolvido através de atividades, desafios, exercícios e projetos realizados durante a formação.
+* Estruturação de páginas com **HTML5**
+* Estilização com **CSS3**
+* Layout responsivo
+* **Flexbox**
+* Criação de interfaces
+* Prototipação no **Figma**
+
+### Programação e lógica
+
+* Lógica de programação
+* Algoritmos
+* Estruturas condicionais
+* Estruturas de repetição
+* Manipulação de dados
+* Resolução de problemas com **JavaScript**
+
+### Back-end e desenvolvimento
+
+* Desenvolvimento com **Java**
+* Programação orientada a objetos (**POO**)
+* Métodos e funções
+* Classes e objetos
+* Estruturas de dados
+* Tratamento de erros
+
+### Banco de dados
+
+* Modelagem de banco de dados
+* Criação de tabelas
+* Relacionamentos
+* Consultas SQL
+* **MySQL**
+* Operações **CRUD**
+
+### Ferramentas e tecnologias
+
+* **Git**
+* **GitHub**
+* **VS Code**
+* **Figma**
+
+Todo o conteúdo deste repositório foi desenvolvido através de atividades, desafios, exercícios e projetos realizados ao longo da formação.
 
 ---
 
@@ -30,53 +65,22 @@ Todo o conteúdo deste repositório foi desenvolvido através de atividades, des
 │   └── Estruturação, layouts e estilização
 │
 ├── 📁 logica-javascript
-│   └── Exercícios e desafios de lógica
+│   └── Exercícios de lógica e algoritmos
 │
-├── 📁 projetos
-│   └── Projetos práticos desenvolvidos durante o curso
+├── 📁 java
+│   └── Exercícios, POO e projetos em Java
+│
+├── 📁 banco-dados
+│   └── Modelagem, SQL e MySQL
 │
 ├── 📁 figma
-│   └── Protótipos e interfaces
+│   └── Wireframes e protótipos
+│
+├── 📁 projetos
+│   └── Projetos desenvolvidos durante a formação
 │
 └── README.md
 ```
-
-### 🔹 html-css
-
-Contém:
-
-* Estruturação semântica
-* Layouts responsivos
-* Flexbox
-* Estilização de páginas
-* Exercícios práticos
-
-### 🔹 logica-javascript
-
-Contém:
-
-* Algoritmos básicos
-* Estruturas condicionais
-* Estruturas de repetição
-* Manipulação de dados
-* Exercícios de lógica
-* Treino de raciocínio lógico
-
-### 🔹 projetos
-
-Contém:
-
-* Projetos desenvolvidos durante a formação
-* Aplicação prática dos conteúdos estudados
-* Evolução gradual de complexidade
-
-### 🔹 figma
-
-Contém:
-
-* Wireframes
-* Protótipos
-* Planejamento visual de interfaces
 
 ---
 
@@ -88,42 +92,60 @@ Meu principal objetivo com este repositório é:
 * 🧠 Praticar constantemente programação e desenvolvimento web
 * 💼 Construir um portfólio sólido
 * 🚀 Me preparar para oportunidades na área de tecnologia
-* 🔥 Aprender cada vez mais sobre desenvolvimento Full Stack
+* 🔥 Evoluir como desenvolvedor Full Stack
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
+### Linguagens
+
 * HTML5
 * CSS3
 * JavaScript
-* Figma
+* Java
+* SQL
+
+### Banco de Dados
+
+* MySQL
+
+### Ferramentas
+
 * Git
 * GitHub
+* VS Code
+* Figma
 
 ---
 
 ## 📅 Progresso da Jornada
 
-✅ HTML básico
+✅ HTML5
 
-✅ CSS básico
+✅ CSS3
 
-✅ Estruturação de páginas
+✅ JavaScript
 
 ✅ Lógica de programação
 
-✅ JavaScript básico
+✅ Java
 
-⬜ JavaScript avançado
+✅ Programação Orientada a Objetos (POO)
 
-⬜ Frameworks Front-end
+✅ SQL
 
-⬜ Back-end
+✅ MySQL
 
-⬜ Banco de dados
+✅ Git e GitHub
 
-⬜ Projetos Full Stack
+✅ Figma
+
+⬜ APIs
+
+⬜ Frameworks
+
+⬜ Projetos Full Stack completos
 
 ---
 
