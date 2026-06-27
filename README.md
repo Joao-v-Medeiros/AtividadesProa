@@ -1,67 +1,94 @@
-
-
-
-
 # 🚀 PROA - Jornada Full Stack (6 meses)
 
 Este repositório documenta toda a minha evolução durante o programa **PROA**, onde estou me formando como desenvolvedor **Full Stack** ao longo de 6 meses.
 
-A ideia deste projeto é registrar, na prática, tudo o que estou aprendendo — desde fundamentos até conceitos mais avançados — mostrando minha evolução contínua na programação.
+A proposta deste projeto é registrar, na prática, tudo o que estou aprendendo durante a jornada — desde fundamentos até conceitos mais avançados — mostrando minha evolução contínua como desenvolvedor.
 
 ---
 
 ## 📚 Sobre o Projeto
 
-Durante essa jornada, estou estudando e aplicando conceitos importantes de desenvolvimento web, incluindo:
+Durante essa jornada estou estudando, praticando e desenvolvendo projetos utilizando tecnologias e conceitos essenciais para o desenvolvimento web:
 
 * Estruturação de páginas com **HTML**
-* Estilização com **CSS**
+* Estilização e responsividade com **CSS**
 * Lógica de programação com **JavaScript**
-* Prototipação e design de interfaces com **Figma**
+* Criação de protótipos e interfaces no **Figma**
+* Organização e versionamento de projetos com **Git e GitHub**
+* Boas práticas de desenvolvimento
+* Desenvolvimento Front-end e fundamentos Full Stack
 
-Todo o conteúdo aqui foi desenvolvido como parte de atividades, exercícios e práticas ao longo do curso.
+Todo o conteúdo deste repositório foi desenvolvido através de atividades, desafios, exercícios e projetos realizados durante a formação.
 
 ---
 
 ## 📂 Estrutura do Repositório
 
-```
+```bash
 📁 proa-fullstack
 ├── 📁 html-css
-│   └── Atividades e exercícios focados em estrutura e design de páginas
+│   └── Estruturação, layouts e estilização
 │
 ├── 📁 logica-javascript
-│   └── Exercícios de lógica de programação usando JavaScript
+│   └── Exercícios e desafios de lógica
+│
+├── 📁 projetos
+│   └── Projetos práticos desenvolvidos durante o curso
+│
+├── 📁 figma
+│   └── Protótipos e interfaces
+│
+└── README.md
 ```
 
-### 🔹 `html-css`
+### 🔹 html-css
 
 Contém:
 
-* Estruturação de páginas
-* Layouts
-* Estilizações
-* Exercícios práticos de front-end
+* Estruturação semântica
+* Layouts responsivos
+* Flexbox
+* Estilização de páginas
+* Exercícios práticos
 
-### 🔹 `logica-javascript`
+### 🔹 logica-javascript
 
 Contém:
 
 * Algoritmos básicos
-* Exercícios de lógica
+* Estruturas condicionais
+* Estruturas de repetição
 * Manipulação de dados
-* Treinos de raciocínio lógico
+* Exercícios de lógica
+* Treino de raciocínio lógico
+
+### 🔹 projetos
+
+Contém:
+
+* Projetos desenvolvidos durante a formação
+* Aplicação prática dos conteúdos estudados
+* Evolução gradual de complexidade
+
+### 🔹 figma
+
+Contém:
+
+* Wireframes
+* Protótipos
+* Planejamento visual de interfaces
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Objetivos
 
 Meu principal objetivo com este repositório é:
 
 * 📈 Acompanhar minha evolução como desenvolvedor
-* 🧠 Praticar constantemente lógica e desenvolvimento web
-* 💼 Criar um portfólio sólido para oportunidades futuras
-* 🚀 Me preparar para atuar como desenvolvedor Full Stack
+* 🧠 Praticar constantemente programação e desenvolvimento web
+* 💼 Construir um portfólio sólido
+* 🚀 Me preparar para oportunidades na área de tecnologia
+* 🔥 Aprender cada vez mais sobre desenvolvimento Full Stack
 
 ---
 
@@ -71,23 +98,39 @@ Meu principal objetivo com este repositório é:
 * CSS3
 * JavaScript
 * Figma
+* Git
+* GitHub
 
 ---
 
-## 📅 Progresso
+## 📅 Progresso da Jornada
 
-Este repositório será atualizado constantemente ao longo dos 6 meses de formação.
+✅ HTML básico
+
+✅ CSS básico
+
+✅ Estruturação de páginas
+
+✅ Lógica de programação
+
+✅ JavaScript básico
+
+⬜ JavaScript avançado
+
+⬜ Frameworks Front-end
+
+⬜ Back-end
+
+⬜ Banco de dados
+
+⬜ Projetos Full Stack
 
 ---
 
 ## 🤝 Conecte-se comigo
 
-Se quiser trocar ideia, aprender junto ou dar feedback, fica à vontade!
+Se quiser trocar ideias, aprender junto ou compartilhar feedback, fique à vontade!
 
 ---
 
 💡 *"A prática leva à evolução."*
-
----
-
-
